@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: #3b3b3b;
 }
 
 img {
@@ -155,9 +155,9 @@ nav {
   display: inline-block;
   background-color: #f44336;
   color: #fff;
-  padding: 10px 30px;
+  padding: 8px 28px;
   font-size: 1.2rem;
-  border-radius: 15px;
+  border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
@@ -171,7 +171,7 @@ nav {
   background-color: #f0f0f0;
   color: #f44336;
   border-radius: 10px;
-  transform: scale(1.05);
+  transform: scale(0.95);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
 }
 
@@ -189,6 +189,7 @@ nav {
 .about-text h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .about-text p {
@@ -214,6 +215,7 @@ nav {
 .meer-text h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .meer-text p {
@@ -227,7 +229,7 @@ nav {
 
 .meer-img img {
   width: 100%;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
@@ -241,7 +243,7 @@ nav {
 
 .about-img img {
   width: 100%;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
@@ -261,6 +263,7 @@ nav {
 .features h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .feature-row {
@@ -274,14 +277,20 @@ nav {
   flex-basis: 30%;
   background-color: #f0f0f0;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  border-radius: 15px;
+  border: 3px solid #f0f0f0; /* oranje kleur voor de rand */
+  box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.1),
+              0px -1px 50px rgba(0, 0, 0, 0.1),
+              1px 0px 50px rgba(0, 0, 0, 0.1),
+              -1px 0px 50px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
 }
 
 .feature-box:hover {
   transform: translateY(-10px);
-  border-radius: 10px;
+  border-radius: 20x;
+  background-color: #e6e6e6;
+  border: 3px solid #f44336; /* oranje kleur voor de rand */
   transform: scale(1.05);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
 }
@@ -290,19 +299,25 @@ nav {
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
-  transition: all 0.3s ease;
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+  box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.3),
+              0px -1px 25px rgba(0, 0, 0, 0.3),
+              1px 0px 25px rgba(0, 0, 0, 0.3),
+              -1px 0px 25px rgba(0, 0, 0, 0.3);
 }
 
 .feature-box:hover img {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3),
+              0px -6px 20px rgba(0, 0, 0, 0.3),
+              2px 0px 20px rgba(0, 0, 0, 0.3),
+              -2px 0px 20px rgba(0, 0, 0, 0.3);
   transform: scale(1.03) translateY(-50px);
   border-radius: 20px;
 }
 
 .feature-box h3 {
   font-size: 1.5rem;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   border-radius: 20px;
   margin-bottom: 10px;
 }
@@ -314,7 +329,7 @@ nav {
 
 .feature-box p {
   font-size: 1.2rem;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   border-radius: 20px;
   margin-bottom: 20px;
 }
@@ -329,6 +344,10 @@ footer {
   padding: 20px;
   text-align: center;
   height: 80px; /* hoogte van de footer */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3),
+              0px -10px 10px rgba(0, 0, 0, 0.3),
+              0px 0px 0px rgba(0, 0, 0, 0.3),
+              -0px 0px 0px rgba(0, 0, 0, 0.3);
 }
 
 footer a {
@@ -381,8 +400,20 @@ footer p {
   color: #f44336;
   border-radius: 8px;
   transition: all 1.0s ease;
-  transform: scale(1.05);
+  transform: scale(1.03);
   padding-right: 225px; /* knop naar rechts uitrekken */
   padding-left: 225px; /* knop naar links uitrekken */
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+}
+
+.btn-footer {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 1.0s ease;
+  font-size: 14px;
 }

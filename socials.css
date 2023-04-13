@@ -1,0 +1,119 @@
+body {
+    background-image: url('https://i.imgur.com/1FyGBFD.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  main {
+    min-height: calc(100vh - 150px);
+  }
+  
+  .socials {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .socials h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .socials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .socials li {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .socials a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .socials a:hover {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .socials a[href*="tiktok"] {
+    background-color: #69c9d0;
+  }
+  
+  .socials a[href*="youtube"] {
+    background-color: #ff0000;
+  }
+  
+  .socials a[href*="instagram"] {
+    background-color: #e1306c;
+  }
+  
+  .socials p {
+    margin-top: 20px;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 8px 28px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #f4433600; /* oranje kleur voor de rand */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+    color: #f44336;
+    border-radius: 10px;
+    transform: scale(0.95);
+    border: 2px solid #f44336; /* oranje kleur voor de rand */
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+  }
