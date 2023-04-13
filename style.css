@@ -324,10 +324,11 @@ nav {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+  background-color: #333; /* achtergrondkleur van de footer */
+  color: #f0f0f0;
   padding: 20px;
+  text-align: center;
+  height: 80px; /* hoogte van de footer */
 }
 
 footer a {
@@ -354,4 +355,34 @@ footer p {
     flex-basis: 80%;
     margin-bottom: 50px;
   }
+  footer {
+    height: 100px; /* hoogte van de footer op kleinere schermen */
+  }
+}
+
+.btn-footer {
+  display: inline-block;
+  background-color: #333; /* achtergrondkleur van de footer */
+  color: #f0f0f0;
+  padding: 4px 16px;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all 1.0s ease;
+  border: 2px solid #f44336; /* oranje kleur voor de rand */
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-footer:hover {
+  background-color: #3333339a;
+  color: #f44336;
+  border-radius: 8px;
+  transition: all 1.0s ease;
+  transform: scale(1.05);
+  padding-right: 225px; /* knop naar rechts uitrekken */
+  padding-left: 225px; /* knop naar links uitrekken */
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 }
