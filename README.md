@@ -1,4 +1,4 @@
 http://hollandersmp.ga/
 
 
-http://hollandersmp.ga/en/index.html
+http://hollandersmp.ga/index.html
