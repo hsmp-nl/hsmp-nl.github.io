@@ -434,26 +434,3 @@ footer p {
 .about-text {
   margin-top: 20px;
 }
-
-.footer-gif {
-  position: top;
-  left: 0;
-  width: 150px;
-  height: 150px;
-  cursor: crosshair;
-  transform: translate(0, 69px);
-  animation: move 56s linear infinite;
-}
-
-@keyframes move {
-  0% {
-    transform: translate(calc(10vw - 450px), 69px);
-    width: 150px;
-    height: 150px;
-  }
-  100% {
-    transform: translate(calc(100vw - -150px), 69px);
-    width: 150px;
-    height: 150px;
-  }
-}
