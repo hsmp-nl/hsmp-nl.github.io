@@ -442,7 +442,7 @@ footer p {
   height: 150px;
   cursor: crosshair;
   transform: translate(0, 69px);
-  animation: move 55s linear infinite;
+  animation: move 56s linear infinite;
 }
 
 @keyframes move {
