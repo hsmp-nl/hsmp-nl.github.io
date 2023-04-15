@@ -298,7 +298,7 @@ nav {
               0px -1px 25px rgba(0, 0, 0, 0.1),
               1px 0px 25px rgba(0, 0, 0, 0.1),
               -1px 0px 25px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  transition: all 0.75s ease;
 }
 
 .feature-box:hover {
