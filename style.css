@@ -248,7 +248,7 @@ nav {
 
 .meer-img:hover img {
   width: 100%;
-  transform: scale(1.03);
+  transform: scale(0.97);
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
@@ -262,7 +262,7 @@ nav {
 
 .about-img:hover img {
   width: 100%;
-  transform: scale(1.03);
+  transform: scale(0.97);
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
@@ -456,4 +456,25 @@ footer p {
 .about-text {
   margin-top: 20px;
   cursor: default;
+}
+
+/* Verberg de standaard scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Maak een aangepaste scrollbar */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #999 #fff;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 20px;
+  border: 3px solid #fff;
 }

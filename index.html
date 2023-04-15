@@ -78,32 +78,41 @@
 </body>
 <script>
   // Selecteer alle ankerlinks
-  const links = document.querySelectorAll('a[href^="#"]');
+const links = document.querySelectorAll('a[href^="#"]');
 
-  // Voeg een click event listener toe aan elke ankerlink
-  links.forEach(link => {
-    link.addEventListener('click', function(e) {
-      // Voorkom standaardgedrag van de link
-      e.preventDefault();
+// Voeg een click event listener toe aan elke ankerlink
+links.forEach(link => {
+  link.addEventListener('click', function(e) {
+    // Voorkom standaardgedrag van de link
+    e.preventDefault();
 
-      // Haal de doel-ID op uit de data-target eigenschap van de link
-      const id = this.getAttribute('data-target');
+    // Haal de doel-ID op uit de data-target eigenschap van de link
+    const id = this.getAttribute('data-target');
 
-      // Selecteer het doel element
-      const target = document.getElementById(id);
+    // Selecteer het doel element
+    const target = document.getElementById(id);
 
-      // Bereken de afstand tussen het doel element en de bovenkant van de pagina
-      const topOffset = target.getBoundingClientRect().top + window.pageYOffset;
+    // Bereken de afstand tussen het doel element en de bovenkant van de pagina
+    const topOffset = target.getBoundingClientRect().top + window.pageYOffset;
 
-      // Scroll soepel naar het doel element
-      window.scrollTo({
-        top: topOffset,
-        behavior: 'auto'
-      });
+    // Scroll soepel naar het doel element
+    window.scrollTo({
+      top: topOffset,
+      behavior: 'smooth'
     });
   });
+});
 </script>
 <script>
   console.log('\n\n\n\n\n\n\n\n%cWARNING: Do not type anything in the console unless you know what you are doing!\n\n\n\n\n\n\n\nWAARSCHUWING: Typ niets in de console tenzij je weet wat je doet!\n\n\n\n\n\n\n\n', 'color: red; font-size: 20px; font-weight: bold;');
+</script>
+<script>
+  window.onload = function() {
+    // Scroll naar de bovenkant van de pagina
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 </script>
 </html>
