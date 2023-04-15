@@ -293,7 +293,7 @@ nav {
   background-color: #f0f0f0;
   padding: 30px;
   border-radius: 15px;
-  border: 3px solid #f0f0f0; /* oranje kleur voor de rand */
+  border: 3px solid #f0f0f0;
   box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.1),
               0px -1px 25px rgba(0, 0, 0, 0.1),
               1px 0px 25px rgba(0, 0, 0, 0.1),
@@ -306,7 +306,7 @@ nav {
   border-radius: 20x;
   cursor: default;
   background-color: #e6e6e6;
-  border: 3px solid #f44336; /* oranje kleur voor de rand */
+  border: 3px solid #f44336;
   transform: scale(1.05);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
 }
@@ -359,11 +359,11 @@ nav {
 }
 
 footer {
-  background-color: #333; /* achtergrondkleur van de footer */
+  background-color: #333;
   color: #f0f0f0;
   padding: 20px;
   text-align: center;
-  height: 80px; /* hoogte van de footer */
+  height: 80px;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3),
               0px -10px 10px rgba(0, 0, 0, 0.3),
               0px 0px 0px rgba(0, 0, 0, 0.3),
@@ -395,13 +395,13 @@ footer p {
     margin-bottom: 50px;
   }
   footer {
-    height: 100px; /* hoogte van de footer op kleinere schermen */
+    height: 100px;
   }
 }
 
 .btn-footer {
   display: inline-block;
-  background-color: #333; /* achtergrondkleur van de footer */
+  background-color: #333;
   color: #f0f0f0;
   padding: 4px 16px;
   font-size: 1rem;
@@ -411,7 +411,7 @@ footer p {
   letter-spacing: 2px;
   text-decoration: none;
   transition: all 1.0s ease;
-  border: 2px solid #f44336; /* oranje kleur voor de rand */
+  border: 2px solid #f44336;
   cursor: pointer;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -423,8 +423,8 @@ footer p {
   transition: all 1.0s ease;
   cursor: default;
   transform: scale(1.03);
-  padding-right: 225px; /* knop naar rechts uitrekken */
-  padding-left: 225px; /* knop naar links uitrekken */
+  padding-right: 225px;
+  padding-left: 225px;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 }
 
@@ -450,7 +450,7 @@ footer p {
   margin-left: 10px;
   max-width: 100%;
   height: auto;
-  width: 50px; /* pas de breedte van de afbeelding aan */
+  width: 50px;
 }
 
 .about-text {
@@ -458,12 +458,10 @@ footer p {
   cursor: default;
 }
 
-/* Verberg de standaard scrollbar */
 body::-webkit-scrollbar {
   display: none;
 }
 
-/* Maak een aangepaste scrollbar */
 body {
   scrollbar-width: thin;
   scrollbar-color: #999 #fff;

@@ -77,25 +77,18 @@
   <script src="app.js"></script>
 </body>
 <script>
-  // Selecteer alle ankerlinks
 const links = document.querySelectorAll('a[href^="#"]');
 
-// Voeg een click event listener toe aan elke ankerlink
 links.forEach(link => {
   link.addEventListener('click', function(e) {
-    // Voorkom standaardgedrag van de link
     e.preventDefault();
 
-    // Haal de doel-ID op uit de data-target eigenschap van de link
     const id = this.getAttribute('data-target');
 
-    // Selecteer het doel element
     const target = document.getElementById(id);
 
-    // Bereken de afstand tussen het doel element en de bovenkant van de pagina
     const topOffset = target.getBoundingClientRect().top + window.pageYOffset;
 
-    // Scroll soepel naar het doel element
     window.scrollTo({
       top: topOffset,
       behavior: 'smooth'
@@ -108,7 +101,6 @@ links.forEach(link => {
 </script>
 <script>
   window.onload = function() {
-    // Scroll naar de bovenkant van de pagina
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
