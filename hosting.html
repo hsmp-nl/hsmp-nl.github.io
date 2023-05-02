@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HollanderSMP - Hosting</title>
+  <link rel="icon" href="https://i.imgur.com/JobDEVg.png" type="image/gif" >
+  <link rel="stylesheet" href="hosting.css">
+</head>
+<body>
+  <section class="main">
+    <div class="hero-image">
+      <img src="https://i.imgur.com/sjLFXTT.png" alt="Header afbeelding">
+    </div>
+    <div class="hero-text">
+        <h1>HollanderSMP Hosting</h1>
+        <p>We are a Minecraft server hosting company with top-notch services. Join us and maybe host your own Minecraft server with ease!</p>
+        <a href="#about" class="btn" data-target="about">Get Started</a>
+      </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="https://www.gws-technologies.com/wp-content/uploads/elementor/thumbs/vps-home-ofqicjsnis5te8wry3t51kbwi9aix1vpr4l9astqm8.png" alt="Minecraft server">
+        </div>
+        <div class="about-text">
+          <h2>About HollanderSMP Hosting</h2>
+          <p>HollanderSMP Hosting is a Minecraft server hosting company that provides top-notch hosting services for our own Minecraft servers. Our servers are optimized for performance and reliability, ensuring that your Minecraft gameplay experience runs smoothly and without any lag.</p>
+          <p>While we do not offer hosting services to individual players, we may consider providing hosting services to select individuals in special cases. If you have a special request or believe that you have something valuable to offer our community, please contact us to discuss the possibility of hosting a Minecraft server with us.</p>
+          <p>At HollanderSMP Hosting, we use only the best hardware and software to ensure that our Minecraft servers run at peak performance. Our servers are equipped with the latest processors, high-speed SSDs, and plenty of RAM to handle even the most demanding Minecraft servers.</p>
+          <p>Check out our server specs to see the full details of our hosting infrastructure and learn more about what makes HollanderSMP Hosting the best choice for your Minecraft gameplay needs.</p>
+          <a href="#features" class="btn" data-target="features">View Server Specs</a>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <h2>Server Specs</h2>
+        <div class="feature-row">
+          <div class="feature-box">
+            <div class="slide">
+              <img src="https://i.imgur.com/Yx9gKeI.png" alt="Powerful CPU" title="Powerful CPU">
+            </div>
+            <h3>Powerful CPU</h3>
+            <p>Our servers are equipped with a powerful AMD Ryzen 5 5600X CPU that ensures fast and smooth gameplay for even the most demanding Minecraft servers on HollanderSMP Hosting!</p>
+          </div>
+          <div class="feature-box">
+            <div class="slide">
+              <img src="https://i.imgur.com/6cFxhlz.png" alt="High-Speed Storage" title="High-Speed Storage">
+            </div>
+            <h3>High-Speed Storage</h3>
+            <p>HollanderSMP Hosting provides 50 GB of high-speed storage that ensures fast read and write speeds, ensuring that your Minecraft server loads quickly and runs smoothly!</p>
+          </div>
+          <div class="feature-box">
+            <div class="slide">
+              <img src="https://i.imgur.com/NmY5KvL.png" alt="High-Performance RAM" title="High-Performance RAM">
+            </div>
+            <h3>High-Performance RAM</h3>
+            <p>Our servers are equipped with 24 GB of high-performance DDR5 4800MHz RAM that ensures fast and smooth gameplay for even the most demanding Minecraft servers on HollanderSMP Hosting!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="meer" id="meer">
+        <div class="about-text">
+          <h2>Experience the Best with HollanderSMP Hosting</h2>
+          <p>At HollanderSMP Hosting, we are dedicated to providing the best Minecraft experience possible. Our server is equipped with the latest technology, ensuring fast and smooth gameplay for even the most demanding Minecraft servers. We also offer a Discord server where you can connect with other players, share your experiences, and stay up to date with the latest news and updates.</p>
+          <p>With HollanderSMP Hosting, you can explore new worlds, build amazing structures, and connect with other players from around the world. Our server is online 24/7, so you can play whenever you want without any interruptions. We also offer a server status page where you can check the current status of the server, including information about maintenance and updates.</p>
+          <a href="https://dsc.gg/hollandersmp" class="btn" target="_blank">Join our Discord Server</a>ㅤ<a href="https://stats.uptimerobot.com/1DzQlF6AOl" class="btn" target="_blank">Check Server Status</a>
+        </div>
+        <div class="meer-img">
+          <img src="https://rabble.tv/wp-content/uploads/2023/02/Purple-Gradient-Minimalist-Dekstop-Wallpaper.jpg" alt="Minecraft server">
+        </div>
+      </section>
+
+  <footer class="footer1">
+    <p><a href="https://hollandersmp.ga/" class="btn-footer" target="_blank">&copy; 2023 HollanderSMP V1.5</a>ㅤㅤㅤ<a href="https://dsc.gg/hollandersmp" class="btn-footer" target="_blank">Discord Server</a>ㅤㅤㅤ<a href="https://stats.uptimerobot.com/1DzQlF6AOl" class="btn-footer" target="_blank">Server Status</a>ㅤㅤㅤ<a href="index.html" class="btn-footer">HSMP Server</a>ㅤㅤㅤ<a href="socials.html" class="btn-footer">Socials</a></p>
+  </footer>
+ 
+  <script src="app.js"></script>
+</body>
+<script>
+const links = document.querySelectorAll('a[href^="#"]');
+
+links.forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const id = this.getAttribute('data-target');
+
+    const target = document.getElementById(id);
+
+    const topOffset = target.getBoundingClientRect().top + window.pageYOffset;
+
+    window.scrollTo({
+      top: topOffset,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+<script>
+  console.log('\n\n\n\n\n\n\n\n%cWARNING: Do not type anything in the console unless you know what you are doing!\n\n\n\n\n\n\n\nWAARSCHUWING: Typ niets in de console tenzij je weet wat je doet!\n\n\n\n\n\n\n\n', 'color: red; font-size: 20px; font-weight: bold;');
+</script>
+<script>
+  window.onload = function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
+</body>
+</html>
