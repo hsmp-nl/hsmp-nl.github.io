@@ -167,7 +167,7 @@
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 20px #00000070;
   }
   
   .btn:hover {
@@ -176,7 +176,7 @@
     border-radius: 10px;
     transform: scale(0.95);
     cursor: pointer;
-    box-shadow: 1px 1px 35px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 35px #f44336;
   }
   
   .about {
