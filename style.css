@@ -156,7 +156,7 @@ nav {
 
 .btn {
   display: inline-block;
-  background-color: #f44336;
+  background-color: rgb(32, 165, 170);
   color: #fff;
   padding: 8px 28px;
   font-size: 1.2rem;
@@ -172,11 +172,11 @@ nav {
 
 .btn:hover {
   background-color: #f0f0f0;
-  color: #f44336;
+  color: rgb(32, 165, 170);
   border-radius: 10px;
   transform: scale(0.95);
   cursor: pointer;
-  box-shadow: 1px 1px 35px #f44336;
+  box-shadow: 1px 1px 35px rgb(32, 165, 170);
 }
 
 .about {
@@ -306,7 +306,7 @@ nav {
   border-radius: 20x;
   cursor: default;
   background-color: #e6e6e6;
-  border: 3px solid #f44336;
+  border: 3px solid rgb(32, 165, 170);
   transform: scale(1.05);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
 }
@@ -413,14 +413,14 @@ footer p {
   letter-spacing: 2px;
   text-decoration: none;
   transition: all 1.0s ease;
-  border: 2px solid #f44336;
+  border: 2px solid rgb(32, 165, 170);
   cursor: pointer;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-footer:hover {
   background-color: #3333339a;
-  color: #f44336;
+  color: rgb(32, 165, 170);
   border-radius: 8px;
   transition: all 1.0s ease;
   cursor: default;

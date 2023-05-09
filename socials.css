@@ -41,7 +41,7 @@ main {
 
 .btn {
   display: inline-block;
-  background-color: #f44336;
+  background-color: rgb(32, 165, 170);
   color: #fff;
   padding: 8px 28px;
   font-size: 1.2rem;
@@ -57,11 +57,11 @@ main {
 
 .btn:hover {
   background-color: #f0f0f0;
-  color: #f44336;
+  color: rgb(32, 165, 170);
   border-radius: 10px;
   transform: scale(0.95);
   cursor: pointer;
-  box-shadow: 1px 1px 35px #f44336;
+  box-shadow: 1px 1px 35px rgb(32, 165, 170);
 }
 
 a {
